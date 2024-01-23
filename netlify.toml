@@ -1,3 +1,8 @@
 [build]
-command = "pip install -r requirements.txt && python"
-publish = "."
+  command = "pip install -r requirements.txt && python"
+  publish = "static"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
