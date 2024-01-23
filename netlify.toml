@@ -1,6 +1,6 @@
 [build]
   command = "pip install -r requirements.txt && python"
-  publish = "elevator_simulator_politechnika"
+  publish = "elevator_simulator_politechnika/repo"
   
 [[headers]]
   for = "/*"
